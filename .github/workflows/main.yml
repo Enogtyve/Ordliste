@@ -1,0 +1,34 @@
+name: Convert JSON File
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+#      - name: Install dependencies
+#        run: npm install  # Only if you have a package.json with dependencies
+
+      - name: Convert JSON file
+        run: node scripts/convert.js
+
+      - name: Commit converted file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add bitcoin-converted.json
+          git commit -m "Add converted file" -a || echo "No changes to commit"
+          git push
+

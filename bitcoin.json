@@ -18,8 +18,11 @@
       {
         "Title": "Information om Nostr på enogtyve.org",
         "Href": "https://www.enogtyve.org/nostr/"
+      },
+      {
+        "Title": "Nostr.com",
+        "Href": "https://nostr.com/"
       }
     ]
-  }, 
-  
+  }
 ]
