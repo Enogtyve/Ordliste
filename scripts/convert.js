@@ -25,7 +25,7 @@ const bitcoinTable = tablePreamble + "\n" + tableData;
 //fs.writeFileSync(bitcoinMdOutputPath, bitcoinTable, 'utf8');
 
 const prefaceMd = fs.readFileSync(prefaceInputPath, 'utf8');
-const readmeMd = prefaceMd + "\n\n##Bitcoin begreber\n" + bitcoinTable;
+const readmeMd = prefaceMd + "\n\n## Bitcoin begreber\n" + bitcoinTable;
 
 console.log(readmeMd);
 
