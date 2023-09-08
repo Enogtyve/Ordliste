@@ -1,0 +1,25 @@
+[
+  {
+    "Term": "Lightning netværket",
+    "English": "Lightning network",
+    "Description": "En løsning der bygger ovenpå Bitcoin designet til at øge skalerbarheden og hastigheden af Bitcointransaktioner.",
+    "Links": [
+      {
+        "Title": "Information om Lightning netværket på enogtyve.org",
+        "Href": "https://www.enogtyve.org/bitcoin-lightning/"
+      }
+    ]
+  },   
+  {
+    "Term": "Nostr",
+    "English": "Nostr",
+    "Description": "Nostr er en åben protokol og tager udgangspunkt i nogle af de samme principper som Bitcoin med public/private nøgle-par. Nostr kan bruges til mange ting, bla. til at lave et decentralt ",
+    "Links": [
+      {
+        "Title": "Information om Nostr på enogtyve.org",
+        "Href": "https://www.enogtyve.org/nostr/"
+      }
+    ]
+  }, 
+  
+]
