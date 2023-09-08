@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -26,8 +28,8 @@ jobs:
 
       - name: Commit converted file
         run: |
-          git config --local user.email "rasmushansen@gmail.com"
-          git config --local user.name "Rasmus Hansen"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add bitcoin-converted.json
           git commit -m "Add converted file" -a || echo "No changes to commit"
           git push
