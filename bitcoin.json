@@ -24,5 +24,89 @@
         "Href": "https://nostr.com/"
       }
     ]
+  },
+  {
+    "Term": "Blokkæde",
+    "English": "Blockchain",
+    "Description": "En distribueret database, hvor Bitcoins transaktioner lagres i blokke, som er kædet sammen og transaktionerne kan derfor ikke senere ændres.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Privat nøgle",
+    "English": "Private Key",
+    "Description": "En hemmelig kode, som tillader en bruger at bruge sine bitcoin.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Offentlig nøgle",
+    "English": "Public Key",
+    "Description": "En kode der er udledt fra en privat nøgle som en brugers bitcoin tilknyttes.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Minedrift",
+    "English": "Mining",
+    "Description": "Processen hvor nye Bitcoins bliver skabt og transaktioner bliver bekræftet på netværket.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Minedriver",
+    "English": "Miner",
+    "Description": "En person, gruppe eller firma der udfører minedrift.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Knudepunkt",
+    "English": "Node",
+    "Description": "En computer, der deltager i Bitcoin-netværket og validerer blokke.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Satoshi (enhed)",
+    "English": "Satoshi",
+    "Description": "Den mindste enhed af bitcoin, svarende til 0.00000001 BTC.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Gren",
+    "English": "Fork",
+    "Description": "En begivenhed, hvor blokkæden opdeles i to separate kæder.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Transaktionsgebyr",
+    "English": "Transaction Fee",
+    "Description": "Et gebyr der betales til minedriverne for at få en Bitcoin-transaktion behandlet og bekræftet af netværket.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Bekræftelse",
+    "English": "Confirmation",
+    "Description": "En proces, hvor en transaktion gennemgår validering og tilføjes til blokkæden.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Konsensus",
+    "English": "Consensus",
+    "Description": "Måden hvorpå Bitcoin-netværket bliver enige om verificering og bekræftelse af transaktioner.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Halvering",
+    "English": "Halving",
+    "Description": "En begivenhed i Bitcoin-netværket, hvor belønningen for minedrift halveres, hvilket sker omtrent hvert 4. år.",
+    "Links": [
+    ]
   }
 ]
