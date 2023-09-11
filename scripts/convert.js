@@ -10,24 +10,26 @@ const json = JSON.parse(fs.readFileSync(jsonInputPath, 'utf8'));
 const duplicateLookup = [];
 const errors = json.flatMap(o => {
     const e = [];
+    const oStr = JSON.stringify(o);
     ["Term", "English", "Description"].forEach(key => {
         const val = o[key];
         if (!val) {
-            e.push(key + " is empty: " + val);
+            e.push(key + " is empty: " + oStr);
         } else if (/^[a-z]/.test(val)) {
-            e.push(key + " starts with lowercase: " + val);
+            e.push(key + " starts with lowercase: " + oStr);
         } else if (val.trim() !== val) {
-            e.push(key + " is not trimmed: " + val);
+            e.push(key + " is not trimmed: " + oStr);
         } else if (key === "Description" && !val.endsWith(".")) {
-            e.push("Description does not end with a '.': " + val);
+            e.push("Description does not end with a '.': " + oStr);
         } else {
             if (!(key in duplicateLookup)) {
                 duplicateLookup[key] = [];
             }
-            if (duplicateLookup[key].includes(val)) {
-                e.push(key + " has a duplicate: " + val);
+            const lowerVal = val.toLowerCase();
+            if (duplicateLookup[key].includes(lowerVal)) {
+                e.push(key + " has a duplicate: " + oStr);
             } else {
-                duplicateLookup[key].push(val);
+                duplicateLookup[key].push(lowerVal);
             }
         }
     });
