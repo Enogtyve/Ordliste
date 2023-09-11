@@ -7,6 +7,38 @@ const readmeMdOutputPath = path.resolve(__dirname, '../README.md');
 
 const json = JSON.parse(fs.readFileSync(jsonInputPath, 'utf8'));
 
+const duplicateLookup = [];
+const errors = json.flatMap(o => {
+    const e = [];
+    ["Term", "English", "Description"].forEach(key => {
+        const val = o[key];
+        if (!val) {
+            e.push(key + " is empty: " + val);
+        } else if (/^[a-z]/.test(val)) {
+            e.push(key + " starts with lowercase: " + val);
+        } else if (val.trim() !== val) {
+            e.push(key + " is not trimmed: " + val);
+        } else if (key === "Description" && !val.endsWith(".")) {
+            e.push("Description does not end with a '.': " + val);
+        } else {
+            if (!(key in duplicateLookup)) {
+                duplicateLookup[key] = [];
+            }
+            if (duplicateLookup[key].includes(val)) {
+                e.push(key + " has a duplicate: " + val);
+            } else {
+                duplicateLookup[key].push(val);
+            }
+        }
+    });
+    return e;
+});
+
+if (errors.length) {
+    throw "There are errors in the input data:\n" + errors.join("\n");
+}
+
+
 json.sort((a, b) => a.Term.localeCompare(b.Term));
 
 const tablePreamble = "| Begreb | På engelsk | Beskrivelse | Links |\n" +
