@@ -13,7 +13,7 @@
   {
     "Term": "Nostr",
     "English": "Nostr",
-    "Description": "Nostr er en åben protokol og tager udgangspunkt i nogle af de samme principper som Bitcoin med public/private nøgle-par. Nostr kan bruges til mange ting, bla. til at lave et decentralt ",
+    "Description": "Nostr er en åben protokol og tager udgangspunkt i nogle af de samme principper som Bitcoin med public/private nøgle-par. Nostr kan bruges til mange ting, bla. til at lave et decentralt.",
     "Links": [
       {
         "Title": "Information om Nostr på enogtyve.org",
@@ -34,14 +34,14 @@
   },
   {
     "Term": "Privat nøgle",
-    "English": "Private Key",
+    "English": "Private key",
     "Description": "En hemmelig kode, som tillader en bruger at bruge sine bitcoin.",
     "Links": [
     ]
   },
   {
     "Term": "Offentlig nøgle",
-    "English": "Public Key",
+    "English": "Public key",
     "Description": "En kode der er udledt fra en privat nøgle som en brugers bitcoin tilknyttes.",
     "Links": [
     ]
@@ -75,15 +75,8 @@
     ]
   },
   {
-    "Term": "Gren",
-    "English": "Fork",
-    "Description": "En begivenhed, hvor blokkæden opdeles i to separate kæder.",
-    "Links": [
-    ]
-  },
-  {
     "Term": "Transaktionsgebyr",
-    "English": "Transaction Fee",
+    "English": "Transaction fee",
     "Description": "Et gebyr der betales til minedriverne for at få en Bitcoin-transaktion behandlet og bekræftet af netværket.",
     "Links": [
     ]
@@ -167,7 +160,7 @@
   },
   {
     "Term": "Grundpenge",
-    "English": "Base Money",
+    "English": "Base money",
     "Description": "Den mest grundlæggende form for penge i et givent penge- og banksystem, ofte centralbankens penge, som ikke har gæld tilknyttet.",
     "Links": [
     ]
@@ -202,14 +195,14 @@
   },
   {
     "Term": "Konjekturcyklus",
-    "English": "Boom-and-Bust Cycle",
+    "English": "Boom-and-bust cycle",
     "Description": "En økonomisk cyklus karakteriseret ved perioder med hurtig økonomisk vækst (boom) efterfulgt af recessioner (bust).",
     "Links": [
     ]
   },
   {
     "Term": "Kapitalgoder",
-    "English": "Capital Goods",
+    "English": "Capital goods",
     "Description": "Varer, der anvendes til produktion af andre varer og tjenesteydelser snarere end at blive solgt til forbrugeren direkte.",
     "Links": [
     ]
@@ -253,6 +246,322 @@
     "Term": "Modpartsrisiko",
     "English": "Counter-party risk",
     "Description": "Risikoen for, at en af parterne i en finansiel transaktion vil misligholde eller ikke vil være i stand til at opfylde sine forpligtelser.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Depotforvalter",
+    "English": "Custodial service",
+    "Description": "Tjenester, hvor en tredjepart opbevarer og styrer aktiver (f.eks. Bitcoin) på vegne af en bruger. Dermed har brugeren ikke længere fuld kontrol over aktivet.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Cypherpunk",
+    "English": "Cypherpunk",
+    "Description": "En bevægelse fokuseret på brug af kryptografi til at skabe privatliv og politisk forandring. Bitcoin udsprang af denne bevægelse.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Devaluering",
+    "English": "Debasement",
+    "Description": "Processen med at reducere værdien af en valuta, ofte ved at øge mængden af den.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Depression",
+    "English": "Depression",
+    "Description": "En langvarig nedgang i økonomisk aktivitet, ofte karakteriseret ved en dyb recession.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Valuta",
+    "English": "Currency",
+    "Description": "Et betalingsmiddel, der er almindeligt accepteret i bytte for varer og tjenester.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Dobbeltforbrugsproblemet",
+    "English": "Double-spending problem",
+    "Description": "Risikoen for, at en digital valuta kan bruges flere gange. Dette problem er unikt for digitale valutaer.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Økonomisk udregning",
+    "English": "Economic calculation",
+    "Description": "Måden vi bruger priser til at beslutte, hvad, hvordan og hvor meget der skal produceres. Tænk på det som at bruge priser til at hjælpe os med at træffe smarte økonomiske beslutninger, så vi får mest muligt ud af vores ressourcer.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Federal Reserve",
+    "English": "The Federal Reserve",
+    "Description": "USA's centralbank, ansvarlig for landets pengepolitik.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Endelig afvikling",
+    "English": "Final settlement",
+    "Description": "Det sidste skridt i en betalingsproces, hvor betaling er foretaget og ikke længere kan ændres.",
+    "Links": [
+    ]
+  },
+
+  {
+    "Term": "Forgrening",
+    "English": "Fork",
+    "Description": "En ændring eller opdeling i en blokkæde, hvor der skabes en ny version af kæden.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Brøkreservebankvæsen",
+    "English": "Fractional reserve banking",
+    "Description": "Et bankvæsen, hvor banker kun holder en brøkdel af kundens indskud i reserve og låner resten ud.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Guldstandard",
+    "English": "Gold standard",
+    "Description": "Et pengesystem, hvor en valutas værdi er direkte knyttet til guld.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Stærke penge",
+    "English": "Hard money",
+    "Description": "Penge hvis mængde det er svært at udvide.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Uforanderlig",
+    "English": "Immutable",
+    "Description": "Noget, der ikke kan ændres eller modificeres. F.eks. er reglerne for Bitcoin-protokollen uforanderlige.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Individuel suverænitet",
+    "English": "Individual sovereignty",
+    "Description": "En persons ret og evne til at have fuld kontrol over sin egen person og ejendom uden indgriben fra eksterne styringsmekanismer som f.eks. staten.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Hovedbog",
+    "English": "Ledger",
+    "Description": "En optegnelse over alle transaktioner i et givent system, som for eksempel Bitcoin's blokkæde.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Lovlig betalingsmiddel",
+    "English": "Legal tender",
+    "Description": "Penge, som ifølge lov skal accepteres som betaling for gæld og bruges til at betale skatter.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Tidspræference",
+    "English": "Time preference rate",
+    "Description": "Hvor meget en person værdisætter en belønning nu, sammenlignet med en belønning i fremtiden. En person med en høj tidspræference vil være villig til at optage et lån med høje renter, mens en person med en lav tidspræference kun vil låne penge til en lav rente.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Fejlinvesteringer",
+    "English": "Malinvestments",
+    "Description": "Investeringer, der er gjort på grund af fejlagtige signaler i markedet, ofte pga. forstyrrelser i renten.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Marginal nytteværdi",
+    "English": "Marginal utility",
+    "Description": "Den værdi en person tillægger at forbruge en ekstra enhed af noget. De fleste vil værdisætte det første og det syvende stykke kage forskelligt.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Markedsboble",
+    "English": "Market bubble",
+    "Description": "En periode hvor priserne på aktiver stiger langt over deres faktiske værdi.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Betalingsmiddel",
+    "English": "Medium of exchange",
+    "Description": "Den vare der bruges til at bytte for varer og tjenester, dvs. typisk penge.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Monetær ekspansion",
+    "English": "Monetary expansion",
+    "Description": "Når mængden af penge i et økonomisk system øges.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Pengemængde",
+    "English": "Money supply",
+    "Description": "Den samlede mængde penge tilgængelig i en økonomi på et bestemt tidspunkt.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Alternativomkostning",
+    "English": "Opportunity cost",
+    "Description": "Omkostningen ved at træffe en beslutning ifht. en anden beslutning.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Bevis-for-arbejde",
+    "English": "Proof-of-Work (PoW)",
+    "Description": "En metode i en blokkæde til at forhindre spam og cyberangreb ved at kræve, at brugere udfører nogle beregninger. Bevis-for-arbejde er med til at skabe Bitcoin's sikkerhed.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Salgbar",
+    "English": "Salable",
+    "Description": "Evnen til hurtigt og let at omdanne et aktiv til kontanter eller bytte det for noget andet. Penge er som udganspunkt det mest salgbare aktiv, mens ejendomme til sammenligning typisk ikke er specielt salgbare.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Skaleringsproblem",
+    "English": "Scaling problem",
+    "Description": "Udfordringen ved at øge kapaciteten af netværk. Det kan f.eks. være udfordringen ved at få Bitcoin til at håndtere flere transaktioner.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Knaphed",
+    "English": "Scarcity",
+    "Description": "Graden af hvor tilgængelig en resource eller vare er.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Værdipapirer",
+    "English": "Securities",
+    "Description": "Finansielle instrumenter, der repræsenterer ejerskab (aktier), en gældsaftale (obligationer) eller ejerrettigheder (optioner).",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Afvikling",
+    "English": "Settlement",
+    "Description": "Afslutningen af en transaktion eller en aftale, hvor aktiver byttes.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Intelligente kontrakter",
+    "English": "Smart contracts",
+    "Description": "Kryptografiske systemer med intelligente kontrakter  skriver kontrakter ind i en blokkæde for at gøre dem selvudførende, uden mulighed for appel eller tilbageførsel og uden for rækkevidde af domstole og politi.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Stabile penge",
+    "English": "Sound money",
+    "Description": "Penge, der har en stabil værdi over tid, ofte fordi det er baseret på en begrænset ressource som guld eller Bitcoin.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Forhold mellem lager og produktion",
+    "English": "Stock-to-flow ratio",
+    "Description": "Forholdet, der sammenligner den mængde af en vare, der er tilgængelig, med mængden af den vare, der produceres og tilføjes årligt.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Værdilager",
+    "English": "Store of value",
+    "Description": "Noget, der beholder sin værdi over tid og kan bruges til at gemme rigdom.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Bitcoinstandarden",
+    "English": "The Bitcoin Standard",
+    "Description": "En bog af Saifedean Ammous, der forklarer økonomiske principper og deres relation til Bitcoin.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Tillidsløse transaktioner",
+    "English": "Trustless transactions",
+    "Description": "Transaktioner, der ikke kræver tillid mellem parterne, typisk sikret ved kryptografi og decentraliserede systemer såsom en blokkæde.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Regnskabsenhed",
+    "English": "Unit of account",
+    "Description": "En enhed, der bruges til at repræsentere den virkelige værdi (eller omkostning) af varer, tjenesteydelser og andre økonomiske transaktioner. For nuværende vil de fleste danske firmaer bruge danske kroner som regnskabsenhed.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Tegnebogsadresser",
+    "English": "Wallet addresses",
+    "Description": "En addresse Bitcoin kan sendes til. Addressen er pseudonym og offentlig.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "UTXO",
+    "English": "Unspent Transaction Output (UTXO)",
+    "Description": "En del af transaktionen, der ikke er blevet brugt og kan anvendes i en fremtidig transaktion i Bitcoin.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Anarko-kapitalisme",
+    "English": "Anarcho capitalism",
+    "Description": "En politisk og økonomisk teori, der foreslår afskaffelse af centraliserede stater til fordel for selvstyre, privat ejendomsret og frie markeder.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Aktiv",
+    "English": "Asset",
+    "Description": "Noget af værdi ejet af en person eller organisation.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Forpligtelse",
+    "English": "Liability",
+    "Description": "En forpligtelse, typisk af økonomisk art, som man skylder en anden person eller enhed.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Rentesats",
+    "English": "Interest rate",
+    "Description": "Procentdelen af et beløb (hovedstol), der betales som en belønning for at låne penge eller som en omkostning for at låne penge.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Pseudonym",
+    "English": "Pseudonym",
+    "Description": "Et fiktivt navn, især et, som en forfatter bruger i stedet for sit rigtige navn. I Bitcoin refererer det ofte til den ikke-identificerbare adresse, som brugere benytter for transaktioner.",
     "Links": [
     ]
   }
