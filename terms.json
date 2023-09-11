@@ -564,5 +564,212 @@
     "Description": "Et fiktivt navn, især et, som en forfatter bruger i stedet for sit rigtige navn. I Bitcoin refererer det ofte til den ikke-identificerbare adresse, som brugere benytter for transaktioner.",
     "Links": [
     ]
+  },
+  {
+    "Term": "51% angreb",
+    "English": "51% attack",
+    "Description": "51%-angrebet er en metode der benytter store mængder beregningskraft til at generere svigagtige transaktioner. Dette kan blandt resultere i et dobbeltforbrugsangreb, hvor den samme coin bruges to gange, og dermed bliver en af transaktionerne annulleret, hvilket bedrager modtageren. Det kan også bruges til at forstyrre netværket generelt.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Anti-hvidvaskning",
+    "English": "Anti-Money Laundering (AML)",
+    "Description": "Lovgivning og procedurer designet til at forhindre kriminelle i at skjule ulovligt opnåede penge.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Applikationsspecifikt integreret kredsløb",
+    "English": "Application-Specific Integrated Circuit (ASIC)",
+    "Description": "En type hardware specialdesignet til en specifikt brug. Indenfor bitcoin findes der ASICer der bliver benyttet til minedrift.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Bear Market",
+    "English": "Bear Market",
+    "Description": "En periode med faldende priser for et bestemt aktiv, ofte med 20% eller mere fra en nylig højde.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Bitcoin",
+    "English": "Bitcoin",
+    "Description": "Den første decentraliserede kryptovaluta, oprettet i 2009 af en anonym person eller gruppe under pseudonymet Satoshi Nakamoto.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Blok",
+    "English": "Block",
+    "Description": "En samling af transaktionsdata. Når flere blokke kædes sammen i en blokkæde så bliver de permanente og uforanderlige.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Blokexplorer",
+    "English": "Block Explorer",
+    "Description": "Et onlineværktøj, der giver mulighed for at se oplysninger om blokke, transaktioner og adresser på Bitcoins netværk.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Blok højde",
+    "English": "Block height",
+    "Description": "Nummeret på en bestemt blok i en blokkæde. Kan også referere til højden på den seneste blok der er minet.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Bull market",
+    "English": "Bull market",
+    "Description": "En periode med stigende priser for et bestemt aktiv.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Digital centralbankvaluta",
+    "English": "Central Bank Digital Currency (CBDC)",
+    "Description": "En digital valuta udstedt af en centralbank som en officiel form for penge.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Decentraliseret",
+    "English": "Decentralized",
+    "Description": "Et system, hvor beslutningstagning og databehandling spredes over flere punkter eller enheder i stedet for at være centreret på et enkelt sted.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Vanskelighedsjustering",
+    "English": "Difficulty adjustment",
+    "Description": "En ændring i, hvor svært det er at mine nye blokke på en blokkæde, ofte for at sikre stabil blokdannelse over tid.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Distribueret netværk",
+    "English": "Distributed network",
+    "Description": "Et netværk af computere, der arbejder sammen, men opererer uafhængigt af hinanden.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Fiatpenge",
+    "English": "Fiat",
+    "Description": "Penge uden iboende værdi, som har værdi, fordi en stat siger det, f.eks. kronen, dollaren eller euroen.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "FUD",
+    "English": "Fear, Uncertainty, Doubt (FUD)",
+    "Description": "Misinformation eller spekulation spredt med det formål at skræmme eller skabe usikkerhed omkring et bestemt emne eller aktiv.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Hardware tegnebog",
+    "English": "Hardware wallet",
+    "Description": "En fysisk enhed designet specifikt til at opbevare kryptografiske nøgler sikkert.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Lag 2",
+    "English": "Layer 2",
+    "Description": "En sekundær teknologi eller protokol, der er bygget oven på en eksisterende blokkæde for at øge dens kapacitet eller funktioner. Et eksempel er Lightning netværket.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Margin",
+    "English": "Margin",
+    "Description": "Beløbet af lånte midler, der bruges til at købe eller handle aktiver, hvilket øger både potentiel gevinst og potentiel tab.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Bitcoinmaksimalist",
+    "English": "Bitcoin maximalist",
+    "Description": "En person, der stærkt tror på, at Bitcoin er overlegen sammenlignet med andre kryptovalutaer. Kendte bitcoinmaksimalister inkluderer bla. Saifedean Ammous, Max Keiser, og Giacomo Zucco.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Onchain analyse",
+    "English": "Onchain analysis",
+    "Description": "Undersøgelse af transaktionsdata direkte på blokkæden for at forstå mønstre, adfærd og tendenser.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Tilladelsesløs",
+    "English": "Permissionless",
+    "Description": "Et system, hvor enhver kan deltage uden behov for tilladelse eller godkendelse fra en central myndighed.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Bevis-for-indsats",
+    "English": "Proof-of-Stake (PoS)",
+    "Description": "En konsensusmekanisme, hvor blokproducenter er valgt baseret på deres andel af en kryptovaluta.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Sikkerhedsfrase",
+    "English": "Seed Phrase",
+    "Description": "En række ord, der genererer en privat nøgle, ofte brugt til gendannelse af tegnebøger.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Selvforvaring",
+    "English": "Self-custody",
+    "Description": "Når individer holder og administrerer deres egne kryptovalutaer uden brug af tredjepartstjenester.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Token",
+    "English": "Token",
+    "Description": "Digitale repræsentationer af værdi eller rettigheder, der kan overføres eller handles.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Hval",
+    "English": "Whale",
+    "Description": "En person eller organisation, der ejer en meget stor mængde kryptovaluta.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Bitcoin hvidbog",
+    "English": "Bitcoin White Paper",
+    "Description": "Et teknisk dokument skrevet af Satoshi Nakamoto i 2008, der introducerede konceptet og teknologien bag Bitcoin.",
+    "Links": [
+      {
+        "Title": "Bitcoins hvidbog (engelsk)",
+        "Href": "https://bitcoin.org/bitcoin.pdf"
+      }
+    ]
+  },
+  {
+    "Term": "Onchain",
+    "English": "Onchain",
+    "Description": "Henviser til transaktioner og andre operationer, der finder sted direkte på blokkæden og dermed forbliver der permanent.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Offchain",
+    "English": "Offchain",
+    "Description": "Henviser til transaktioner og operationer, der sker uden for blokkæden, ofte for at øge hastigheden eller effektiviteten. Disse kan senere verificeres og tilføjes til blokkæden senere efter behov.",
+    "Links": [
+    ]
   }
 ]
