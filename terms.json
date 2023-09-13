@@ -720,7 +720,7 @@
     ]
   },
   {
-    "Term": "Sikkerhedsfrase",
+    "Term": "Gendannelsesord",
     "English": "Seed Phrase",
     "Description": "En række ord, der genererer en privat nøgle, ofte brugt til gendannelse af tegnebøger.",
     "Links": [
