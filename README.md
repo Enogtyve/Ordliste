@@ -60,9 +60,11 @@ Enogtyve vil hurtist muligt kigge den igennem og accepterer gode forslag.
 | Guldstandard | *Gold standard* | Et pengesystem, hvor en valutas værdi er direkte knyttet til guld. |  |
 | Halvering | *Halving* | En begivenhed i Bitcoin-netværket, hvor belønningen for minedrift halveres, hvilket sker omtrent hvert 4. år. |  |
 | Hardware tegnebog | *Hardware wallet* | En fysisk enhed designet specifikt til at opbevare kryptografiske nøgler sikkert. |  |
+| Hashing | *Hashing* | En proces, der tager inputdata af vilkårlig størrelse og omdanner det til en fast længde, typisk en numerisk værdi. I Bitcoin bruges hashing til at sikre dataintegritet og til at oprette adresser for nye transaktioner. |  |
 | Hovedbog | *Ledger* | En optegnelse over alle transaktioner i et givent system, som for eksempel Bitcoin's blokkæde. |  |
 | Hval | *Whale* | En person eller organisation, der ejer en meget stor mængde kryptovaluta. |  |
 | Ihændehaveraktiv | *Bearer asset* | En aktivtype, hvor ejendomsretten bestemmes af besiddelse. Den, der fysisk besidder aktivet, ejer og kontrollerer det. |  |
+| Ikke-forvaltende | *Non-custodial* | Refererer til en type tegnebog eller service, hvor brugeren beholder fuld kontrol over sine Bitcoinnøgler og -midler, i modsætning til at overlade forvaltningen til en tredjepart eller service. |  |
 | Individuel suverænitet | *Individual sovereignty* | En persons ret og evne til at have fuld kontrol over sin egen person og ejendom uden indgriben fra eksterne styringsmekanismer som f.eks. staten. |  |
 | Intelligente kontrakter | *Smart contracts* | Kryptografiske systemer med intelligente kontrakter  skriver kontrakter ind i en blokkæde for at gøre dem selvudførende, uden mulighed for appel eller tilbageførsel og uden for rækkevidde af domstole og politi. |  |
 | Kapitalgoder | *Capital goods* | Varer, der anvendes til produktion af andre varer og tjenesteydelser snarere end at blive solgt til forbrugeren direkte. |  |
@@ -73,12 +75,14 @@ Enogtyve vil hurtist muligt kigge den igennem og accepterer gode forslag.
 | Konsensusregler | *Consensus rules* | De regler, som alle deltagere i et netværk (f.eks. Bitcoin) skal følge for at opretholde netværkets integritet og sikkerhed. |  |
 | Kontanter | *Cash* | Fysiske penge, såsom mønter og sedler, eller bitcoin der tillader direkte, peer-to-peer transaktioner uden behov for en mellemliggende part eller godkendelse. Dets brug er svær at censurere, da det ikke kræver en central autoritet. |  |
 | Krigen om bitcoins uforanderlighed | *Block Size War* | En kontrovers indenfor Bitcoin-samfundet vedrørende, hvor store blokke i blokkæden bør være og hvorvidt Bitcoin kan ændres. |  |
+| Kryptografi | *Cryptography* | Videnskaben om at sikre kommunikation og information mod uønsket adgang. Kryptografi gør det muligt at omdanne almindelig tekst til krypteret tekst og tilbage igen, og den er fundamentet for sikkerheden i Bitcoin. |  |
 | Lag 2 | *Layer 2* | En sekundær teknologi eller protokol, der er bygget oven på en eksisterende blokkæde for at øge dens kapacitet eller funktioner. Et eksempel er Lightning netværket. |  |
 | Lightning netværket | *Lightning network* | En løsning der bygger ovenpå Bitcoin designet til at øge skalerbarheden og hastigheden af Bitcointransaktioner. | [Information om Lightning netværket på enogtyve.org](https://www.enogtyve.org/bitcoin-lightning/) |
 | Lovlig betalingsmiddel | *Legal tender* | Penge, som ifølge lov skal accepteres som betaling for gæld og bruges til at betale skatter. |  |
 | Margin | *Margin* | Beløbet af lånte midler, der bruges til at købe eller handle aktiver, hvilket øger både potentiel gevinst og potentiel tab. |  |
 | Marginal nytteværdi | *Marginal utility* | Den værdi en person tillægger at forbruge en ekstra enhed af noget. De fleste vil værdisætte det første og det syvende stykke kage forskelligt. |  |
 | Markedsboble | *Market bubble* | En periode hvor priserne på aktiver stiger langt over deres faktiske værdi. |  |
+| Mempool | *Mempool* | En midlertidig "ventesal" for alle de transaktioner, der venter på at blive bekræftet og tilføjet til blokkæden. Mempoolen giver et overblik over alle transaktioner i netværket der endnu ikke er blevet en del af blokkæden. | [mempool.space - et værktøj til at undersøge Bitcoins mempool og transaktioner](https://mempool.space/) |
 | Minedrift | *Mining* | Processen hvor nye Bitcoins bliver skabt og transaktioner bliver bekræftet på netværket. |  |
 | Minedriver | *Miner* | En person, gruppe eller firma der udfører minedrift. |  |
 | Modpartsrisiko | *Counter-party risk* | Risikoen for, at en af parterne i en finansiel transaktion vil misligholde eller ikke vil være i stand til at opfylde sine forpligtelser. |  |
@@ -96,6 +100,7 @@ Enogtyve vil hurtist muligt kigge den igennem og accepterer gode forslag.
 | Peer-to-peer netværk (P2P) | *Peer-to-peer network* | Et decentraliceret netværk, hvor to parter kan interagere direkte uden en mellemliggende tredjepart. |  |
 | Pengemængde | *Money supply* | Den samlede mængde penge tilgængelig i en økonomi på et bestemt tidspunkt. |  |
 | Privat nøgle | *Private key* | En hemmelig kode, som tillader en bruger at bruge sine bitcoin. |  |
+| Protokol | *Protocol* | En defineret sæt regler og standarder, der sikrer korrekt kommunikation mellem enheder i et netværk. I sammenhæng med Bitcoin refererer dette til de underliggende regler, der styrer netværket. |  |
 | Pseudonym | *Pseudonym* | Et fiktivt navn, især et, som en forfatter bruger i stedet for sit rigtige navn. I Bitcoin refererer det ofte til den ikke-identificerbare adresse, som brugere benytter for transaktioner. |  |
 | Råvarer | *Commodities* | Grundlæggende varer, der kan købes og sælges, ofte brugt som input i fremstillingen af andre varer eller tjenesteydelser. |  |
 | Regnskabsenhed | *Unit of account* | En enhed, der bruges til at repræsentere den virkelige værdi (eller omkostning) af varer, tjenesteydelser og andre økonomiske transaktioner. For nuværende vil de fleste danske firmaer bruge danske kroner som regnskabsenhed. |  |
