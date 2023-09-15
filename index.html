@@ -69,6 +69,46 @@
             font-weight: bold;
             color: #f2a900;
         }
+
+        td:before {
+            font-weight: bold;
+        }
+
+
+        @media (max-width: 767px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+
+            /* Hide table headers */
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+
+            tr {
+                margin-bottom: 0.625em;
+            }
+
+            td {
+                /* Behave like columns */
+                border: none;
+                position: relative;
+                padding-left: 50%;
+            }
+
+            td:before {
+                /* Use `content` to insert data-label attribute */
+                position: absolute;
+                top: 6px;
+                left: 6px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                content: attr(data-label);
+            }
+        }
     </style>
 </head>
 <body>
@@ -108,16 +148,27 @@
         data.forEach(item => {
             const row = tableBody.insertRow();
             row.insertCell().textContent = item.Term;
+            row.cells[0].setAttribute("data-label", "Begreb");
+
             row.insertCell().textContent = item.English;
+            row.cells[1].setAttribute("data-label", "På engelsk");
+
             row.insertCell().textContent = item.Description;
-            const linksCell = row.insertCell();
-            item.Links.forEach(link => {
-                const anchor = document.createElement("a");
-                anchor.href = link.Href;
-                anchor.textContent = link.Title;
-                anchor.target = "_blank";
-                linksCell.appendChild(anchor);
-            });
+            row.cells[2].setAttribute("data-label", "Beskrivelse");
+
+            if (item.Links.length > 0) {
+                const linksCell = row.insertCell();
+                linksCell.setAttribute("data-label", "Links");
+                item.Links.forEach(link => {
+                    const anchor = document.createElement("a");
+                    anchor.href = link.Href;
+                    anchor.textContent = link.Title;
+                    anchor.target = "_blank";
+                    linksCell.appendChild(anchor);
+                });
+            } else {
+                row.insertCell().textContent = "";
+            }
         });
     }
     function filterTable() {
