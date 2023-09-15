@@ -54,6 +54,7 @@ Enogtyve vil hurtist muligt kigge den igennem og accepterer gode forslag.
 | Forhold mellem lager og produktion | *Stock-to-flow ratio* | Forholdet, der sammenligner den mængde af en vare, der er tilgængelig, med mængden af den vare, der produceres og tilføjes årligt. |  |
 | Forpligtelse | *Liability* | En forpligtelse, typisk af økonomisk art, som man skylder en anden person eller enhed. |  |
 | FUD | *Fear, Uncertainty, Doubt (FUD)* | Misinformation eller spekulation spredt med det formål at skræmme eller skabe usikkerhed omkring et bestemt emne eller aktiv. |  |
+| Gendannelsesord | *Seed Phrase* | En række ord, der genererer en privat nøgle, ofte brugt til gendannelse af tegnebøger. |  |
 | Genstandspenge | *Artifact Money* | En form for penge, der får sin værdi fra det fysiske materiale, det er lavet af, og den kulturelle betydning, det har. Historisk set kunne dette være sjældne skaller, perler, eller specielle sten. |  |
 | Grundpenge | *Base money* | Den mest grundlæggende form for penge i et givent penge- og banksystem, ofte centralbankens penge, som ikke har gæld tilknyttet. |  |
 | Guldstandard | *Gold standard* | Et pengesystem, hvor en valutas værdi er direkte knyttet til guld. |  |
@@ -103,7 +104,6 @@ Enogtyve vil hurtist muligt kigge den igennem og accepterer gode forslag.
 | Sammenfald i ønsker | *Coincidence of wants* | Situationen hvor to parter hver har noget, den anden ønsker, hvilket er nødvendigt for byttehandel. |  |
 | Satoshi (enhed) | *Satoshi* | Den mindste enhed af bitcoin, svarende til 0.00000001 BTC. |  |
 | Selvforvaring | *Self-custody* | Når individer holder og administrerer deres egne kryptovalutaer uden brug af tredjepartstjenester. |  |
-| Sikkerhedsfrase | *Seed Phrase* | En række ord, der genererer en privat nøgle, ofte brugt til gendannelse af tegnebøger. |  |
 | Skaleringsproblem | *Scaling problem* | Udfordringen ved at øge kapaciteten af netværk. Det kan f.eks. være udfordringen ved at få Bitcoin til at håndtere flere transaktioner. |  |
 | Stabile penge | *Sound money* | Penge, der har en stabil værdi over tid, ofte fordi det er baseret på en begrænset ressource som guld eller Bitcoin. |  |
 | Stærke penge | *Hard money* | Penge hvis mængde det er svært at udvide. |  |
