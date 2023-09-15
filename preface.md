@@ -1,7 +1,7 @@
 # Ordliste
 Ordliste for Bitcoin- og økonomibegreber vedligeholdt af [Enogtyve.org](https://www.enogtyve.org).
 
-En søgbar udgave [findes her](https://enogtyve.github.io/Ordliste/).
+En søgbar udgave findes på [ord.enogtyve.org](https://ord.enogtyve.org).
 
 Formålet med ordlisten er at sikre klar kommunikation, at undgå misforståelser og at hjælpe til med at bruge danske ord der er forståelige for nytilkomne.
 
