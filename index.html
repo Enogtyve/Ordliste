@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danske Bitcoin begreber og ord</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        input {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        table {
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            width: 100%;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 12px;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #2C3E50;
+            color: #ffffff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498DB;
+            transition: color 0.3s;
+        }
+
+        table a {
+            display: block;
+        }
+
+        a:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        a:hover {
+            color: #2C3E50;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #f2a900;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Danske Bitcoin begreber og ord</h1>
+
+<p dir="auto">Ordliste for Bitcoin- og økonomibegreber vedligeholdt af <a href="https://www.enogtyve.org" target="_blank">Enogtyve.org</a>.</p>
+
+<p dir="auto">Forslag til forbedringer modtages med kyshånd på <a href="https://github.com/Enogtyve/Ordliste" target="_blank">GitHub.com/Enogtyve/Ordliste</a>.</p>
+
+
+<div id="loadingMessage">Henter data...</div>
+
+<div id="main" style="display: none">
+    <input type="text" id="filterInput" placeholder="Søg..." onkeyup="filterTable()">
+
+    <table id="myTable">
+        <thead>
+        <tr>
+            <th>Begreb</th>
+            <th>På engelsk</th>
+            <th>Beskrivelse</th>
+            <th>Links</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function populateTable(data) {
+        const tableBody = document.querySelector("#myTable tbody");
+
+        data.sort((a, b) => a.Term.localeCompare(b.Term))
+
+        data.forEach(item => {
+            const row = tableBody.insertRow();
+            row.insertCell().textContent = item.Term;
+            row.insertCell().textContent = item.English;
+            row.insertCell().textContent = item.Description;
+            const linksCell = row.insertCell();
+            item.Links.forEach(link => {
+                const anchor = document.createElement("a");
+                anchor.href = link.Href;
+                anchor.textContent = link.Title;
+                anchor.target = "_blank";
+                linksCell.appendChild(anchor);
+            });
+        });
+    }
+    function filterTable() {
+        const filter = document.getElementById("filterInput").value.toUpperCase();
+        const regex = new RegExp(`(${filter})`, 'gi');
+        const rows = document.querySelectorAll("#myTable tbody tr");
+        rows.forEach(row => {
+            const searchCells = [0, 1, 2]
+                .map(index => row.cells.item(index));
+            const matchingCells = searchCells
+                .map(cell => cell.textContent.toUpperCase())
+                .filter(text => text.indexOf(filter) > -1)
+                .length;
+            if (matchingCells > 0) {
+                row.style.display = "";
+            } else {
+                row.style.display = "none";
+            }
+            searchCells.forEach(cell => {
+                cell.innerHTML = cell.textContent.replace(regex, '<span class="highlight">$1</span>');
+            })
+        });
+    }
+
+    fetch("terms.json")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            return response.json();
+        })
+        .then(data => {
+            populateTable(data);
+            document.getElementById("loadingMessage").style.display = "none";
+            document.getElementById("main").style.display = "";
+        })
+        .catch(error => {
+            console.log("There was a problem with the fetch operation:", error.message);
+            document.getElementById("loadingMessage").textContent = "Kunne ikke hente dataen. Prøv igen.";
+        });
+</script>
+</body>
+</html>

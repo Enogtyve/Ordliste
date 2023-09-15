@@ -771,5 +771,44 @@
     "Description": "Henviser til transaktioner og operationer, der sker uden for blokkæden, ofte for at øge hastigheden eller effektiviteten. Disse kan senere verificeres og tilføjes til blokkæden senere efter behov.",
     "Links": [
     ]
+  },
+  {
+    "Term": "Protokol",
+    "English": "Protocol",
+    "Description": "En defineret sæt regler og standarder, der sikrer korrekt kommunikation mellem enheder i et netværk. I sammenhæng med Bitcoin refererer dette til de underliggende regler, der styrer netværket.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Mempool",
+    "English": "Mempool",
+    "Description": "En midlertidig \"ventesal\" for alle de transaktioner, der venter på at blive bekræftet og tilføjet til blokkæden. Mempoolen giver et overblik over alle transaktioner i netværket der endnu ikke er blevet en del af blokkæden.",
+    "Links": [
+      {
+        "Title": "mempool.space - et værktøj til at undersøge Bitcoins mempool og transaktioner",
+        "Href": "https://mempool.space/"
+      }
+    ]
+  },
+  {
+    "Term": "Hashing",
+    "English": "Hashing",
+    "Description": "En proces, der tager inputdata af vilkårlig størrelse og omdanner det til en fast længde, typisk en numerisk værdi. I Bitcoin bruges hashing til at sikre dataintegritet og til at oprette adresser for nye transaktioner.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Kryptografi",
+    "English": "Cryptography",
+    "Description": "Videnskaben om at sikre kommunikation og information mod uønsket adgang. Kryptografi gør det muligt at omdanne almindelig tekst til krypteret tekst og tilbage igen, og den er fundamentet for sikkerheden i Bitcoin.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Ikke-forvaltende",
+    "English": "Non-custodial",
+    "Description": "Refererer til en type tegnebog eller service, hvor brugeren beholder fuld kontrol over sine Bitcoinnøgler og -midler, i modsætning til at overlade forvaltningen til en tredjepart eller service.",
+    "Links": [
+    ]
   }
 ]
