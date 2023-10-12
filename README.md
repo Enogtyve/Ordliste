@@ -34,9 +34,9 @@ Bemærk at ændringer i andre filer automatisk vil blive overskrevet.
 | Blok | *Block* | En samling af transaktionsdata. Når flere blokke kædes sammen i en blokkæde så bliver de permanente og uforanderlige. |  |
 | Blok højde | *Block height* | Nummeret på en bestemt blok i en blokkæde. Kan også referere til højden på den seneste blok der er minet. |  |
 | Blokbelønning | *Block reward* | Belønningen, som miners modtager for at bekræfte transaktioner og tilføje nye blokke til blokkæden. |  |
-| Blokexplorer | *Block Explorer* | Et onlineværktøj, der giver mulighed for at se oplysninger om blokke, transaktioner og adresser på Bitcoins netværk. |  |
 | Blokkæde | *Blockchain* | En distribueret database, hvor Bitcoins transaktioner lagres i blokke, som er kædet sammen og transaktionerne kan derfor ikke senere ændres. |  |
 | Bloktilskud | *Block subsidy* | En fast mængde der gives til en minedriver for at finde en blok. |  |
+| Blokudforsker | *Block Explorer* | Et onlineværktøj, der giver mulighed for at se oplysninger om blokke, transaktioner og adresser på Bitcoins netværk. |  |
 | Brøkreservebankvæsen | *Fractional reserve banking* | Et bankvæsen, hvor banker kun holder en brøkdel af kundens indskud i reserve og låner resten ud. |  |
 | Bull market | *Bull market* | En periode med stigende priser for et bestemt aktiv. |  |
 | Byttehandel | *Barter* | Den ældste form for handel, hvor varer og tjenester byttes direkte uden brug af penge som mellemled. |  |
