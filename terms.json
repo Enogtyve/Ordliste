@@ -608,7 +608,7 @@
     ]
   },
   {
-    "Term": "Blokexplorer",
+    "Term": "Blokudforsker",
     "English": "Block Explorer",
     "Description": "Et onlineværktøj, der giver mulighed for at se oplysninger om blokke, transaktioner og adresser på Bitcoins netværk.",
     "Links": [
