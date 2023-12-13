@@ -810,5 +810,61 @@
     "Description": "Refererer til en type tegnebog eller service, hvor brugeren beholder fuld kontrol over sine Bitcoinnøgler og -midler, i modsætning til at overlade forvaltningen til en tredjepart eller service.",
     "Links": [
     ]
+  },
+  {
+    "Term": "Cantillon effekten",
+    "English": "Cantillon effect",
+    "Description": "Cantillon-effekten er et fænomen, der opstår, når nye penge introduceres, og dermed sker der en øgelse af pengemængden i en økonomi. Når ny penge tilføjes, har det en tendens til at gå til visse mennesker eller virksomheder først, og disse første modtagere har en fordel over andre, fordi de får mulighed for at bruge de nye penge, før priserne stiger. Dette får priserne på nogle varer og tjenester til at stige mere end andre, hvilket betyder, at de mennesker, der får de nye penge først, drager fordel, mens dem, der får dem senere, er dårligere stillet. Denne effekt blev først beskrevet af økonomen Richard Cantillon i sammenhæng med mere hårde penge, såsom guld og sølv, men den er endnu mere relevant i dag i en verden, der opererer på en fiat-standard. Når en regering eller centralbank skaber en masse ny fiat-valuta, kan det føre til stigende priser og ulige fordeling af rigdom, da nogle mennesker og virksomheder er i stand til lettere at få adgang til kredit og drage fordel af stigende aktivpriser.",
+    "Links": [
+ ]
+  },
+  {
+    "Term": "Thiers lov",
+    "English": "Thiers law",
+    "Description": "Thiers lov er et koncept, der diskuterer, hvad der kan ske, hvis folk og virksomheder nægter at acceptere eller bruge en lavere kvalitet af valuta. I stedet for at forsvinde fra cirkulationen kunne den højere kvalitetsform af penge handles til en præmie eller til en højere værdi end dens pålydende værdi. Thiers lov antyder, at hvis en regering forsøger at tvinge folk til at bruge en lavere kvalitet valuta ved at gøre den til lovligt betalingsmiddel, vil det blive ignoreret. Med andre ord kan folk og virksomheder vælge ikke at acceptere den lavere kvalitet valuta og i stedet foretrække at bruge den højere kvalitet eller andre betalingsformer.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Greshams lov",
+    "English": "Greshams law",
+    "Description": "Greshams lov er et koncept, der forklarer, hvordan folk har en tendens til at bruge forskellige typer valuta på forskellige måder, når de er i omløb sammen. Hvis to former for valuta er givet samme værdi af en regering eller anden autoritet, men den ene er lavet af et mere værdifuldt materiale, vil folk være mere tilbøjelige til at spare op i den mere værdifulde valuta og forbruge med den mindre værdifulde. Dette kan ske, når en regering forringer sin valuta eller gør den mindre værd ved at mindske mængden af værdifuldt materiale, den indeholder. Resultatet er, at folk mister tilliden til den forringede valuta og foretrækker at holde fast i den mere værdifulde i stedet. Dette princip kan også gælde for fiat-valuta, som ikke er bakket op af en fysisk vare som guld eller sølv. Hvis udbuddet af valutaen øges på en måde, der gør den mindre værd, kan dette føre til, at folk sparer i den mere stabile valuta og bruger den devaluerede valuta hurtigere. I de senere år har fremkomsten af bitcoin som en digital valuta ført til en tendens, hvor folk sparer i bitcoin og bruger deres traditionelle valuta, eller "fiat," hurtigere. Dette skyldes, at bitcoin anses for at have en højere værdi over tid og dermed opretholde eller øge købekraften mere end det er tilfældet ved at holde på fiatvalutaer.",
+    "Links": [
+   ]
+  },
+  {
+    "Term": "Monetær præmie",
+    "English": "Monetary premium",
+    "Description": "Hvis værdien af penge ikke er baseret på dens knaphed, er det muligt, at det ikke er så pålideligt som en måde at opbevare værdi på. I dette tilfælde kan andre ting, der er knappe, såsom aktiver eller ressourcer, blive mere værdifulde og bruges som erstatning for penge. Denne ekstra værdi er kendt som en monetær præmie. Når den sædvanlige form for penge ikke fungerer godt, kan folk vende sig til andre ting, der er sjældne eller svære at få fat i, som en måde at udveksle værdi på. Nogle historiske former for penge havde ingen anden brug eller værdi udover at blive brugt som en måde at handle for andre ting. Forskellen mellem værdien af noget som penge og dets værdi til andre anvendelser er den monetære præmie.",
+    "Links": [
+     ]
+  },
+  {
+    "Term": "Knap ressource",
+    "English": "Scarce ressource",
+    "Description": "Når der ikke er nok ressourcer til alle, konkurrerer mennesker og organisationer om dem. Denne konkurrence afspejles ofte i prisen på varer og tjenester på et frit marked. Hvis efterspørgslen efter en bestemt ressource stiger hurtigere end udbuddet, kan den blive knap og mere værdifuld. Penge bruges ofte som en måde at købe ting på, fordi de er lette at handle med og er værdifulde, fordi de er knappe. Bitcoin er en digital form for penge, der har et fast udbud, hvilket gør den sjælden og værdifuld. Tanken om, at der aldrig er uendeligt meget af noget, er et grundlæggende princip i økonomi, men det ignoreres ofte i politiske beslutninger.",
+    "Links": [
+     ]
+  },
+  {
+    "Term": "Mikrobetalinger",
+    "English": "Micro payments",
+    "Description": "Mikrobetalinger refererer til meget små finansielle transaktioner, ofte beløb på mindre end 5 kroner. Disse typer betalinger kan være vanskelige at foretage ved hjælp af traditionelle finansielle systemer, da de ofte har minimumsbeløb, der kan overføres, samt faste gebyrer, der kan gøre små betalinger upraktiske. Lightning-netværket giver mulighed for at foretage mikrobetalinger ved hjælp af Bitcoin. Det gør det muligt for brugere at sende meget små mængder af Bitcoin, ned til 1 satoshi, uden risikoen for at miste kontrol over deres midler til en tredjepart (kaldet “forvaltningsrisiko”). I modsætning til Bitcoin-blockchain, som i øjeblikket har minimumstransaktionsbeløb samt gebyrer, der gør mikrobetalinger upraktiske, giver Lightning-netværket altså mulighed for meget små betalinger i fraktioner af bitcoin (satoshi). Dette åbner muligheden for at skabe nye markeder og gøre små betalinger mere praktiske.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Jevons paradoks",
+    "English": "Jevons Paradox",
+    "Description": "Jevons Paradoks er et fænomen, der opstår, når vi bruger mere af en ressource, selv når vi bruger den mere effektivt. Dette sker, fordi øget effektivitet ofte fører til lavere omkostninger, hvilket kan øge efterspørgslen efter ressourcen. Et eksempel på dette er brugen af kul som energikilde. I slutningen af 1700-tallet troede folk, at kullagrene var ved at slippe op, men James Watts dampmaskine gjorde det muligt at bruge kul mere effektivt. Dette førte til en stigning i efterspørgslen efter kul, selvom det blev brugt mere effektivt. Forholdet mellem energi og penge er også vigtigt at overveje. Nogle mennesker har foreslået at bruge energi som et mål for værdi for penge, men dette har ikke været succesfuldt i praksis. Bitcoin bruger derimod et system kaldet proof of work, som motiverer folk til at bruge energi effektivt for at opnå et afkast. Selvom nogle kritiserer brugen af energi på denne måde, er det vigtigt at huske, at mennesker konstant finder nye måder at generere energi på, og vi bør ikke antage, at energi er en fast eller begrænset ressource.",
+    "Links": [
+    ]
+  },
+  {
+    "Term": "Nash ligevæg",
+    "English": "Nash equilibrium",
+    "Description": "Et Nash Equilibrium er et koncept inden for spilteori, der henviser til en situation, hvor ingen spiller kan opnå en fordel ved at ændre deres strategi. I forbindelse med valg af værdilager betyder at opnå en Nash Equilibrium, at samfundet er konvergeret omkring et enkelt værdilager, hvilket i høj grad letter handel og arbejdsdeling. Sjovt faktum: Bitcoin refereres ofte som et eksempel på en Nash Equilibrium, da det er blevet den dominerende kryptovaluta på grund af dets opfattede værdi og udbredt adoption.",
+    "Links": [
+    ]
   }
 ]
