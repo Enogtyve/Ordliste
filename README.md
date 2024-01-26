@@ -84,7 +84,7 @@ Bemærk at ændringer i andre filer automatisk vil blive overskrevet.
 | Kryptografi | *Cryptography* | Videnskaben om at sikre kommunikation og information mod uønsket adgang. Kryptografi gør det muligt at omdanne almindelig tekst til krypteret tekst og tilbage igen, og den er fundamentet for sikkerheden i Bitcoin. |  |
 | Lag 2 | *Layer 2* | En sekundær teknologi eller protokol, der er bygget oven på en eksisterende blokkæde for at øge dens kapacitet eller funktioner. Et eksempel er Lightning netværket. |  |
 | Lightning netværket | *Lightning network* | En løsning der bygger ovenpå Bitcoin designet til at øge skalerbarheden og hastigheden af Bitcointransaktioner. | [Information om Lightning netværket på enogtyve.org](https://www.enogtyve.org/bitcoin-lightning/) |
-| Lovlig betalingsmiddel | *Legal tender* | Penge, som ifølge lov skal accepteres som betaling for gæld og bruges til at betale skatter. |  |
+| Lovligt betalingsmiddel | *Legal tender* | Penge, som ifølge lov skal accepteres som betaling for gæld og bruges til at betale skatter. |  |
 | Margin | *Margin* | Beløbet af lånte midler, der bruges til at købe eller handle aktiver, hvilket øger både potentiel gevinst og potentiel tab. |  |
 | Marginal nytteværdi | *Marginal utility* | Den værdi en person tillægger at forbruge en ekstra enhed af noget. De fleste vil værdisætte det første og det syvende stykke kage forskelligt. |  |
 | Markedsboble | *Market bubble* | En periode hvor priserne på aktiver stiger langt over deres faktiske værdi. |  |
